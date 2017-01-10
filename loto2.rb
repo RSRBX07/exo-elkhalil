@@ -11,3 +11,11 @@ if is_vendredi_13
       end
 
 puts " le montant de la gagnote du jour est de #{cagnote}"
+
+#afficher si gagne ou perdu
+gange = true
+if gagne 
+  puts "gagné"
+  else 
+    puts "perdu"
+    end
