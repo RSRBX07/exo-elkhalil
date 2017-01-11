@@ -29,7 +29,7 @@ puts " le montant de la gagnote du jour est de #{cagnote}"
       end
       #afficher si gangé ou perdu
       grille=(1..45).to_a
-      selection= grille.shuffle.take5
+      selection= grille.shuffle.take  5
       if tab.equal?(selection)
         puts "gagnants"
         else puts "perdants"
