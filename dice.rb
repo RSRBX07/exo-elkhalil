@@ -1,70 +1,46 @@
-# un programme qui affiche le resultat d'un tirage d un dé de 6 faces'
-#tableau = (1..45).to_a
-#result=[]
-=begin
 
-5.times {
-    var1= rand(tableau.size)
-    result.push(tableau[var1])
-    tableau.delete_at(var1)
-}
+=begin
+    def self.roll(argument=nil)
+        argument
+
 =end
-#faces=[1,2,3,4,5,6]
-#roll = faces.shuffle
-#roll=faces [ rand 6]
-#puts roll
 
-#ecrire une metode roll qui va retourner le contenu d un dé
-#return la valeur du face d un dé
-#de = (1..6).to_a
-   # roll = rand(0..5)
-=begin
-def roll
-    faceDe=rand(1..6)
-    return faceDe
-     
-
-end
-   puts  faceDe
-
-  
-
-  def roll ( argument = false)
-      if argument == false
-          roll = 1 + rand(6)
-          return roll
-          else 
-              argument
-    end
-end
-puts roll 
-puts roll 2
-=end
-=begin
-meta = {
+   # dice = Dice.new
     
-    'formation'=>"ruby",
-    'euler'=>"galois"
-}
-var1=meta['formation']
-var2=meta['euler']
-puts " Made with love @#{var1} by #{var2}"
-=end
-=begin
-codePostal ={
-   :lille => 59000,
-   :riems => 80000
+   # end  
+  
+    #faire un programe qui affiche le résultat d'un tirage d'un dé à 6 faces
+# print result of a dice roll
+#roll = 1 + rand 6
 
-}
-puts "ma ville est"
-maVille=gets.chomp.to_sym
-monCode=codePostal[maVille]
-#puts " donner le numero"
-#num = gets.to_i
+# faces = [1, 2, 3, 4, 5, 6]
 
-#num1 = ville[num]
-puts " mon code  est #{monCode}"                                                                                                                                                                                                                                                                                                                                            =end
+# # roll = faces .shuffle
 
-class Dice   
-    dice = Dice.new
-    end                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+# roll = faces[rand 6]
+# puts roll
+# ecrire une méthode roll qui va retourner la valeur d'un dé à 6 faces
+
+class Dice
+         puts "dans la definition de la class Dice, self represente #{self.inspect}"
+         # count_ou_pas est une methode de la classe Dice
+
+    def self.count_ou_pas
+        
+         puts "dans la definition de la class Dice, self represente #{self.inspect}"
+
+     end
+
+    def roll(cheated_value = nil)
+        # rolle est une methode d'instance de class Dice
+        puts "dans la definition de la class Dice, self represente #{self.inspect}"
+    cheated_value
+    end
+ puts "lancer de de normal"
+ puts "roll "
+
+
+end
+dice = Dice.new
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
