@@ -8,11 +8,11 @@ class Loto
   attr_writer :saved_grids
   
 
-def initialize
+def initialize # cette methode va initialiser la variable d instance @picked_balls pour chaque objet créer par la methode new
   puts "on initialise une instance de loto"
-  @picked_balls =[]
+  picked_balls =[]
   end
-  
+
 # retourne un Array avec les 5 chiffres choisi aleatoirement par le joueur
   def self.get_player_grid
     puts "Saisissez votre grille nombre par nombre en appyant sur entree entre chaque"
@@ -28,6 +28,7 @@ def initialize
     grid
   end
 
+# retourne un Array avec les 5 chiffres choisi aleatoirement par le jeu
   def self.get_flash
     (1..45).to_a.shuffle.take 5
   end

@@ -66,6 +66,7 @@
 
   
 require './loto.rb'
+#require './loto/loto.rb'
 # require './french_numbers.rb'
 # fixnumber = Fixnumber.new
 # fixnumber.french_numbers 2
