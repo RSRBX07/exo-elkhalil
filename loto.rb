@@ -50,7 +50,7 @@ end
   end
 
   
-
+private
   def prize
     cagnote = if vendredi_13?
         2_000_000
