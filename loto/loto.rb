@@ -10,7 +10,9 @@ class Loto
 
 def initialize
   puts "on initialise une instance de loto"
+  @picked_balls =[]
   end
+  
 # retourne un Array avec les 5 chiffres choisi aleatoirement par le joueur
   def self.get_player_grid
     puts "Saisissez votre grille nombre par nombre en appyant sur entree entre chaque"
