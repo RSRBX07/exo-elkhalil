@@ -16,7 +16,8 @@
 
 
 
-# require './loto.rb'
+
+
 
 # loto_du_samedi = Loto.new
 # 2.times {loto_du_samedi.validate_grid Loto.get_flash}
@@ -33,6 +34,18 @@
 # end
 
 
-fixnumber = Fixnumber.new
-fixnumber.french_numbers 2
-fixnumber.num_to_string 10
+# fixnumber = Fixnumber.new
+# puts fixnumber.french_numbers 2
+# puts fixnumber.num_to_string 10
+
+
+
+ require './loto.rb'
+ 
+ 
+   my_loto = Loto.new
+    #puts my_loto.tirage
+
+my_loto.validate_grid Loto.get_grid
+my_loto.has_winner?
+my_loto.validate_grid Loto.get_grid
