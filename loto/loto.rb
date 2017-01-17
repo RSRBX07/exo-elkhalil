@@ -1,4 +1,6 @@
 require 'date'
+
+
 class Loto
   attr_reader :picked_balls # c'est une méthode qui retourne la variable d'instance picked_balls
   attr_reader :saved_grids
@@ -6,6 +8,10 @@ class Loto
   attr_writer :saved_grids
   
 
+def initialize
+  puts "on initialise une instance de loto"
+  end
+# retourne un Array avec les 5 chiffres choisi aleatoirement par le joueur
   def self.get_player_grid
     puts "Saisissez votre grille nombre par nombre en appyant sur entree entre chaque"
     grid = []
