@@ -63,7 +63,9 @@ et qui retourne la chaine de carractere du chiffre ecrit en toutes lettres
 
 
 
-class Fixnumber
+
+
+class Fixnum
 
 def french_numbers index
       tableau = ["zero", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf"] 
