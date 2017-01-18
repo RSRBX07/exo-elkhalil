@@ -30,7 +30,7 @@ RSpec.describe Loto do
      expect(validated_grids).to include grid
   end
   it 'reject grid validation after draw'
-end
+end                                                                                                                                
 
 
 

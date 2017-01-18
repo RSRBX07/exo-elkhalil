@@ -1,5 +1,6 @@
-require 'date'
-
+ require 'date'
+ 
+  
 
 class Loto
   attr_reader :picked_balls # c'est une méthode qui retourne la variable d'instance picked_balls
