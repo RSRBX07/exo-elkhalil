@@ -9,7 +9,7 @@ puts count.value
 
 
 count2 = Counter.new
-10.times {p=Plane.new}
+10.times {p=Pane.new}
 puts count.value
 
 
