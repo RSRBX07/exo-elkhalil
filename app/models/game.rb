@@ -6,10 +6,10 @@ class Game < ApplicationRecord
    end 
 
   def remove_player
-    raise RuntimeError.new "argument No more player to be remover " @players if @players <= 0
+    # raise RuntimeError.new "argument No more player to be remover " @players if @players <= 0
+    #  @players -=1
+     return @players if @players <= 0
      @players -=1
-    # return @players if @players <= 0
-    # @players -=1
     # if @players!=0
     #    @players -= 1
     # else 
@@ -20,7 +20,7 @@ class Game < ApplicationRecord
 private
 
 def initialize
-  @players = 0
+  @players = 10
 end
 
 
