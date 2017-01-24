@@ -20,11 +20,4 @@ ActiveRecord::Schema.define(version: 20170123154257) do
     t.integer  "players"
   end
 
-  create_table "personns", force: :cascade do |t|
-    t.string   "firstname"
-    t.string   "lastname"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
