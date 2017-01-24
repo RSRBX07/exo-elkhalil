@@ -17,11 +17,4 @@ class Game < ApplicationRecord
     # end
   end 
 
-private
-
-def initialize
-  @players = 10
-end
-
-
 end

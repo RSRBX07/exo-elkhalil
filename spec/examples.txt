@@ -1,7 +1,43 @@
-example_id               | status  | run_time       |
------------------------- | ------- | -------------- |
-./spec/loto_spec.rb[1:1] | pending | 0 seconds      |
-./spec/loto_spec.rb[1:2] | passed  | 0 seconds      |
-./spec/loto_spec.rb[1:3] | failed  | 0 seconds      |
-./spec/loto_spec.rb[1:4] | failed  | 0.0156 seconds |
-./spec/loto_spec.rb[1:5] | pending | 0 seconds      |
+example_id                                           | status  | run_time      |
+---------------------------------------------------- | ------- | ------------- |
+./spec/controllers/games_controller_spec.rb[1:1:1]   | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:2:1]   | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:3:1]   | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:4:1]   | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:5:1:1] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:5:1:2] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:5:1:3] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:5:2:1] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:5:2:2] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:6:1:1] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:6:1:2] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:6:1:3] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:6:2:1] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:6:2:2] | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:7:1]   | pending | 0 seconds     |
+./spec/controllers/games_controller_spec.rb[1:7:2]   | pending | 0 seconds     |
+./spec/controllers/say_controller_spec.rb[1:1:1]     | passed  | 0.032 seconds |
+./spec/controllers/say_controller_spec.rb[1:2:1]     | passed  | 0.011 seconds |
+./spec/helpers/games_helper_spec.rb[1:1]             | pending | 0 seconds     |
+./spec/helpers/say_helper_spec.rb[1:1]               | pending | 0 seconds     |
+./spec/loto_spec.rb[1:1]                             | pending | 0 seconds     |
+./spec/loto_spec.rb[1:2]                             | passed  | 0.002 seconds |
+./spec/loto_spec.rb[1:3]                             | passed  | 0.002 seconds |
+./spec/loto_spec.rb[1:4]                             | passed  | 0.003 seconds |
+./spec/loto_spec.rb[1:5]                             | pending | 0 seconds     |
+./spec/models/game_spec.rb[1:1]                      | pending | 0 seconds     |
+./spec/requests/games_spec.rb[1:1:1]                 | passed  | 0.417 seconds |
+./spec/routing/games_routing_spec.rb[1:1:1]          | passed  | 0.001 seconds |
+./spec/routing/games_routing_spec.rb[1:1:2]          | passed  | 0.001 seconds |
+./spec/routing/games_routing_spec.rb[1:1:3]          | passed  | 0.001 seconds |
+./spec/routing/games_routing_spec.rb[1:1:4]          | passed  | 0.001 seconds |
+./spec/routing/games_routing_spec.rb[1:1:5]          | passed  | 0 seconds     |
+./spec/routing/games_routing_spec.rb[1:1:6]          | passed  | 0.001 seconds |
+./spec/routing/games_routing_spec.rb[1:1:7]          | passed  | 0.001 seconds |
+./spec/routing/games_routing_spec.rb[1:1:8]          | passed  | 0.001 seconds |
+./spec/views/games/edit.html.erb_spec.rb[1:1]        | passed  | 0.067 seconds |
+./spec/views/games/index.html.erb_spec.rb[1:1]       | passed  | 0.073 seconds |
+./spec/views/games/new.html.erb_spec.rb[1:1]         | passed  | 0.187 seconds |
+./spec/views/games/show.html.erb_spec.rb[1:1]        | passed  | 0.092 seconds |
+./spec/views/say/goodbye.html.erb_spec.rb[1:1]       | pending | 0 seconds     |
+./spec/views/say/hello.html.erb_spec.rb[1:1]         | pending | 0 seconds     |

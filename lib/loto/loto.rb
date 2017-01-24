@@ -52,13 +52,13 @@ def initialize # cette methode va initialiser la variable d instance @picked_bal
   def validate_grid grid
     # @saved_grids ||= []
     @saved_grids = @saved_grids || []
-    if  ! draw 
-        @saved_grids.push grid
+    if  draw 
         puts "Votre grille est bien enregistree pour le prochain tirage!"
+        @saved_grids.push grid
     else
         puts "tirage déja fait, reviens demain !!!"
     end
-    
+    @saved_grids
   end 
   # demander une grille de jeu
 
@@ -76,7 +76,7 @@ def initialize # cette methode va initialiser la variable d instance @picked_bal
     # shuffle balls and take 5
     # @picked_balls ||= available_balls.shuffle.take(5)
     #@picked_balls = @picked_balls || (available_balls.shuffle.take 5)
- @picked_balls = (available_balls.shuffle.take 5)
+    @picked_balls ||= (available_balls.shuffle.take 5)
     puts "Le tirage du jour est : #{@picked_balls.sort}" 
     @picked_balls
   end
